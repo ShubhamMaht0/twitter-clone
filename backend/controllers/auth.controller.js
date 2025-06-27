@@ -2,7 +2,6 @@ import bcrypt from "bcryptjs";
 
 import User from "../models/user.model.js";
 import { generateTokenAndSetCookie } from "../lib/utils/generateToken.js";
-import mongoose from "mongoose";
 
 export const signup = async (req,res)=>{
     try {
